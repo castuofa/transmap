@@ -18,7 +18,8 @@ The research objectives of the TransMAP Hub are
 
 The Maritime Transportation Research and Education Center (MarTREC) is a U.S. Department of Transportation Tier 1 University Transportation Center funded through the Office of the Assistant Secretary for Research and Technology. MarTREC is working to preserve the Nation’s transportation system through efficient, resilient, and sustainable maritime and multimodal logistics and infrastructure. The MarTREC consortium consists of renowned maritime transportation researchers dedicated to transferrable research and inclusive education and workforce development. Our consortium consists of the University of Arkansas, Jackson State University, Louisiana State University, Texas A&M University and Transportation Institute, University of New Orleans, and Vanderbilt University.
 
-MarTREC conducts research in three critical areas:
+MarTREC conducts research in three critical areas
+
 - **Maritime and Multimodal Logistics Management** enhances current understanding and facilitates improved operations within the nation’s multimodal supply chain networks
 - **Maritime and Multimodal Infrastructure Preservation** advances state-of-the-art resilient multimodal transportation infrastructure preservation, repair, design, and construction
 - **Disaster Response and Transportation Planning for Coastal and River Valley Communities** enables the resilience, safety, efficiency, and effectiveness of multimodal transportation systems during disaster response or other major events.
