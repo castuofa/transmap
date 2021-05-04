@@ -6,11 +6,11 @@ Conducted through the Maritime Transportation Research and Education Center (Mar
 
 TransMAP’s goal is to develop a ‘visual decision space’ for effective planning, management, and advancement of efficient, resilient, and sustainable multimodal transportation systems including highway, rail, maritime, and pipeline. Efficient, resilient, and sustainable multimodal transportation is a national priority. To meet the challenging environment of the Nation’s complex and ever-changing transportation system, large-scale data sets need to be captured and analyzed to support research and planning, and made available for real-time access for use by government agencies, industry and citizens. Intelligently using big data is critical to manage, improve, maintain, design and build our transportation infrastructure.
 
-The research objectives of the TransMAP Hub are to:
+The research objectives of the TransMAP Hub are
 
-* Curate, archive, and disseminate transactional and dynamic data across multiple software platforms to make a variety of transportation data sets accessible on a real-time basis to government agencies, industry and citizens based on open source data management software tools and an open-access online visualization platform to collect, analyze, and disseminate transportation system performance data that supports efficient and accessible multimodal transportation.
-* Improve visualization of physical and socioeconomic data related to multimodal transportation in three-dimensional space and over time through the development of cartograms for visualizing human geography, area-value data, and time as a cartographic variable.
-* Develop interactive map animations so researchers, citizens, and current and future industries can access data-rich maps to make informed decisions for effective planning, management, and advancement of efficient, resilient, and sustainable multimodal transportation systems including highway, rail, maritime, and pipeline.
+- Curate, archive, and disseminate transactional and dynamic data across multiple software platforms to make a variety of transportation data sets accessible on a real-time basis to government agencies, industry and citizens based on open source data management software tools and an open-access online visualization platform to collect, analyze, and disseminate transportation system performance data that supports efficient and accessible multimodal transportation.
+- Improve visualization of physical and socioeconomic data related to multimodal transportation in three-dimensional space and over time through the development of cartograms for visualizing human geography, area-value data, and time as a cartographic variable.
+- Develop interactive map animations so researchers, citizens, and current and future industries can access data-rich maps to make informed decisions for effective planning, management, and advancement of efficient, resilient, and sustainable multimodal transportation systems including highway, rail, maritime, and pipeline.
 
 ## MarTREC - Maritime Transportation Research & Education Center
 
