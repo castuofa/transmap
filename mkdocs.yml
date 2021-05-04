@@ -10,7 +10,18 @@ site_dir: site
 
 theme:
   palette:
-      scheme: preference
+    - scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+    - scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
   name: material
   icon:
       repo: fontawesome/brands/github
@@ -21,12 +32,6 @@ theme:
       - navigation.expand
       # - navigation.tabs
       - search.highlight
-
-  # pretty colors! see https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
-  palette:
-    primary: 'green'
-    accent: 'purple'
-
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
