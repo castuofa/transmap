@@ -50,15 +50,15 @@ markdown_extensions:
 
 # give a title for each page
 nav:
-  - 'TransMAP': 'index.md'
-  - 'About the Project': 'about.md'
-  - 'Data Sources':
-    - 'Demographic': 'data_demographic.md'
-    - 'Maritime': 'data_maritime.md'
-    - 'Hydrographic': 'data_hydrographic.md'
-    - 'Administrative Boundaries': 'data_administrative.md'
+  - 'About TransMAP Hub': 'index.md'
+  - 'Architecture': 'architecture.md'
   - 'TransMAP Hub Explorer':
     - 'Usage': 'explorer_usage.md'
     - 'Use Cases': 'explorer_use_cases.md'
   - 'TransMAP Hub Analytics': 'placeholder.md'
   - 'TransMAP Python API': 'placeholder.md'
+  - 'Data Sources':
+    - 'Demographic': 'data_demographic.md'
+    - 'Maritime': 'data_maritime.md'
+    - 'Hydrographic': 'data_hydrographic.md'
+    - 'Administrative Boundaries': 'data_administrative.md'
