@@ -15,12 +15,10 @@ The research objectives of the TransMAP Hub are
 !!! warning
     It is worth emphasizing that the TransMAP Hub will not be a one-stop location to meet requirements for each common and specific need relevant to all potential stakeholders. Not only is this beyond the scope of this project, but it is also nearly impossible to effectively implement extensive and complex functionality within a single, mostly browser-based application. Instead, the focus here is to develop a range of possible engagements with these disparate datasets while allowing for nuance in specific project requirements
 
-
-### Roadmap
-
-![Roadmap]("img/roadmap.jpg"){ loading=lazy }
-
 ## MarTREC
+
+![Roadmap]("/img/martrec_logo.png"){ loading=lazy }
+
 ### Maritime Transportation Research & Education Center
 
 !!! note ""
@@ -33,3 +31,10 @@ MarTREC conducts research in three critical areas
 - **Maritime and Multimodal Logistics Management** enhances current understanding and facilitates improved operations within the nation’s multimodal supply chain networks
 - **Maritime and Multimodal Infrastructure Preservation** advances state-of-the-art resilient multimodal transportation infrastructure preservation, repair, design, and construction
 - **Disaster Response and Transportation Planning for Coastal and River Valley Communities** enables the resilience, safety, efficiency, and effectiveness of multimodal transportation systems during disaster response or other major events.
+
+
+## Status of the Project
+
+### Roadmap
+
+![Roadmap]("/img/roadmap.jpg"){ loading=lazy }
