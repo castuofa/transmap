@@ -1,0 +1,74 @@
+version: "3.2"
+services:
+
+###
+# Be sure to modify the base volume paths before deploying
+###
+
+  # ETL Pipelines handled here
+  worker:
+    image: registry.git.uark.edu/cast/transmap-hub/transmap-rest-service:latest
+    volumes:
+      - /mnt/transmap/service_data:/transmap/app/storage
+    command:
+      - python ./scheduler.py
+    ports:
+      - "8001:8000"
+    env_file:
+      - .env
+    restart: always
+
+  # Primary RESTful services via FastAPI
+  web:
+    image: registry.git.uark.edu/cast/transmap-hub/transmap-rest-service:latest
+    volumes:
+      - /mnt/transmap/service_data:/app/storage
+    command:
+      - uvicorn main:app --host 0.0.0.0 --port 8000 --workers 6
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    restart: always
+
+  # Metadata Management with Geonetwork
+  geonetwork:
+    image: geonetwork
+    restart: always
+    ports:
+      - 8081:8080
+    environment:
+      DATA_DIR: /var/lib/geonetwork_data
+      GEONETWORK_DB_NAME: /var/lib/geonetwork_data/gn.h2.db
+    volumes:
+      - /mnt/transmap/geonetwork_data:/var/lib/geonetwork_data
+
+  # Vector tile server with modifiable config
+  pg_tileserv:
+    build:
+      context: ./pg_tileserv
+      dockerfile: ./Dockerfile
+    env_file:
+      - .env
+    restart: always
+    ports:
+      - "7800:7800"
+    volumes:
+      - /mnt/transmap/pg_tileserv:/config
+
+  # Vector feature server
+  pg_featureserv:
+    # Currently uses a modified version for aliasing nginx to a sub directory
+    image: registry.git.uark.edu/cast/transmap-hub/pg-featureserv
+    # Uncomment for most purposes
+    # image: pramsay:pg-featureserv
+    env_file:
+      - .env
+    restart: always
+    ports:
+      - "9000:9000"
+
+networks:
+  default:
+    external:
+      name: transmap_default
