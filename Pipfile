@@ -6,6 +6,11 @@ name = "pypi"
 [packages]
 mkdocs = "*"
 mkdocs-material = "*"
+mkdocstrings = "*"
+mkdocs-git-revision-date-plugin = "*"
+mkdocs-jupyter = "*"
+mkdocs-pdf-export-plugin = "*"
+mkdocs-render-swagger-plugin = "*"
 
 [dev-packages]
 

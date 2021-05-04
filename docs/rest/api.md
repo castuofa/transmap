@@ -1,4 +1,4 @@
 # TransMAP Hub REST API
 
-!!swagger rest/openapi.json!!
+!!swagger <https://oak.cast.uark.edu/openapi.json>!!
 
