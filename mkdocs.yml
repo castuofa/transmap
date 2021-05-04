@@ -42,11 +42,21 @@ plugins:
 
 markdown_extensions:
     - attr_list
-    - pymdownx.superfences
     - pymdownx.highlight:
           linenums: true
     - toc:
           permalink: true
+    - markdown_include.include:
+        base_path: docs
+    - admonition
+    - codehilite
+    - extra
+    - pymdownx.superfences:
+        custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format ''
+    - pymdownx.tabbed
 
 # give a title for each page
 nav:
