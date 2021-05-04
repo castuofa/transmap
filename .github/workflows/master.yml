@@ -1,4 +1,4 @@
-name: TransMAP Hub Documentation
+name: TransMAP Hub
 on:
   push:
     branches:
