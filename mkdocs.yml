@@ -65,13 +65,15 @@ markdown_extensions:
 nav:
   - 'About the Project': 'index.md'
   - 'Architecture': 'architecture.md'
-  - 'TransMAP Hub Explorer':
-    - 'Usage': 'explorer_usage.md'
-    - 'Use Cases': 'explorer_use_cases.md'
-  - 'TransMAP Hub Analytics': 'placeholder.md'
-  - 'TransMAP Python API': 'placeholder.md'
-  - 'Data Sources':
-    - 'Demographic': 'data_demographic.md'
-    - 'Maritime': 'data_maritime.md'
-    - 'Hydrographic': 'data_hydrographic.md'
-    - 'Administrative Boundaries': 'data_administrative.md'
+  # - 'TransMAP Hub Explorer':
+  #   - 'Usage': 'explorer_usage.md'
+  #   - 'Use Cases': 'explorer_use_cases.md'
+  # - 'TransMAP Hub Analytics': 'placeholder.md'
+  # - 'TransMAP Python API': 'placeholder.md'
+  - 'Data Collections':
+    - 'Vessel Movement': 'datasources/maritime_movement.md'
+    - 'Multi-modal Networks': 'datasources/networks.md'
+    - 'Navigation': 'datasources/navigation.md'
+    - 'Environmental': 'datasources/environment.md'
+    - 'Overhead Imagery': 'datasources/imagery.md'
+    - 'Social & Demographic': 'datasources/demographic.md'
