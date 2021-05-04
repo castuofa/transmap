@@ -80,5 +80,5 @@ nav:
     - 'Overhead Imagery': 'datasources/imagery.md'
     - 'Social & Demographic': 'datasources/demographic.md'
   - 'Notebooks':
-    - 'AIS Traffic': notebooks/notebooks/ais_traffic.ipynb
-    - 'Lock Analysis': notebooks/notebooks/lock_analysis.ipynb
+    - notebooks/notebooks/ais_traffic.ipynb
+    - notebooks/notebooks/lock_analysis.ipynb
