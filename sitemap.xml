@@ -35,5 +35,13 @@
      <loc>https://castuofa.github.io/transmap/datasources/demographic/</loc>
      <lastmod>2021-05-04</lastmod>
      <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://castuofa.github.io/transmap/notebooks/notebooks/ais_traffic/</loc>
+     <lastmod>2021-05-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://castuofa.github.io/transmap/notebooks/notebooks/lock_analysis/</loc>
+     <lastmod>2021-05-04</lastmod>
+     <changefreq>daily</changefreq>
     </url>
 </urlset>
