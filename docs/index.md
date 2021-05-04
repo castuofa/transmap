@@ -12,6 +12,14 @@ The research objectives of the TransMAP Hub are
 - Improve visualization of physical and socioeconomic data related to multimodal transportation in three-dimensional space and over time through the development of cartograms for visualizing human geography, area-value data, and time as a cartographic variable.
 - Develop interactive map animations so researchers, citizens, and current and future industries can access data-rich maps to make informed decisions for effective planning, management, and advancement of efficient, resilient, and sustainable multimodal transportation systems including highway, rail, maritime, and pipeline.
 
+!!! warning
+    It is worth emphasizing that the TransMAP Hub will not be a one-stop location to meet requirements for each common and specific need relevant to all potential stakeholders. Not only is this beyond the scope of this project, but it is also nearly impossible to effectively implement extensive and complex functionality within a single, mostly browser-based application. Instead, the focus here is to develop a range of possible engagements with these disparate datasets while allowing for nuance in specific project requirements
+
+
+### Roadmap
+
+![Roadmap]("img/roadmap.jpg"){ loading=lazy }
+
 ## MarTREC
 ### Maritime Transportation Research & Education Center
 

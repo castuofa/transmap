@@ -58,7 +58,7 @@ markdown_extensions:
 
 # give a title for each page
 nav:
-  - 'About TransMAP Hub': 'index.md'
+  - 'About the Project': 'index.md'
   - 'Architecture': 'architecture.md'
   - 'TransMAP Hub Explorer':
     - 'Usage': 'explorer_usage.md'
