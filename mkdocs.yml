@@ -78,4 +78,4 @@ nav:
     - 'Overhead Imagery': 'datasources/imagery.md'
     - 'Social & Demographic': 'datasources/demographic.md'
   - 'Notebooks':
-    - 'Analyze Vessel Traffic': 'notebooks/notebooks/vessel-traffic.ipynb'
+    - 'notebooks/notebooks/vessel-traffic.ipynb'
