@@ -7,5 +7,29 @@
      <loc>https://castuofa.github.io/transmap-docs/architecture/</loc>
      <lastmod>2021-05-04</lastmod>
      <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://castuofa.github.io/transmap-docs/datasources/maritime_movement/</loc>
+     <lastmod>2021-05-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://castuofa.github.io/transmap-docs/datasources/networks/</loc>
+     <lastmod>2021-05-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://castuofa.github.io/transmap-docs/datasources/navigation/</loc>
+     <lastmod>2021-05-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://castuofa.github.io/transmap-docs/datasources/environment/</loc>
+     <lastmod>2021-05-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://castuofa.github.io/transmap-docs/datasources/imagery/</loc>
+     <lastmod>2021-05-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://castuofa.github.io/transmap-docs/datasources/demographic/</loc>
+     <lastmod>2021-05-04</lastmod>
+     <changefreq>daily</changefreq>
     </url>
 </urlset>
