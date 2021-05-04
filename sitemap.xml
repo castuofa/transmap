@@ -31,5 +31,9 @@
      <loc>https://castuofa.github.io/transmap-docs/datasources/demographic/</loc>
      <lastmod>2021-05-04</lastmod>
      <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://castuofa.github.io/transmap-docs/notebooks/notebooks/vessel-traffic/</loc>
+     <lastmod>2021-05-04</lastmod>
+     <changefreq>daily</changefreq>
     </url>
 </urlset>

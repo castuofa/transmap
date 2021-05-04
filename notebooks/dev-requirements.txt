@@ -1,0 +1,11 @@
+ipykernel
+geopandas
+# Windows - Python 3.9 64bit
+#Cartopy
+https://download.lfd.uci.edu/pythonlibs/w4tscw6k/Cartopy-0.18.0-cp39-cp39-win_amd64.whl
+#GDAL
+https://download.lfd.uci.edu/pythonlibs/w4tscw6k/GDAL-3.2.2-cp39-cp39-win_amd64.whl
+#Fiona
+https://download.lfd.uci.edu/pythonlibs/w4tscw6k/Fiona-1.8.18-cp39-cp39-win_amd64.whl
+movingpandas
+pykdtree
