@@ -17,7 +17,7 @@ The research objectives of the TransMAP Hub are
 
 ## MarTREC
 
-![MarTRECLogo]("/img/martrec_logo.png"){ loading=lazy }
+![MarTRECLogo](img/martrec_logo.png){ loading=lazy }
 
 ### Maritime Transportation Research & Education Center
 
@@ -37,4 +37,4 @@ MarTREC conducts research in three critical areas
 
 ### Roadmap
 
-![Roadmap]("/img/roadmap.jpg"){ loading=lazy }
+![Roadmap](img/roadmap.jpg){ loading=lazy }
