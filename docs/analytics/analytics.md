@@ -15,6 +15,8 @@ Driven by the research objectives outlined in the various Use Cases, these inter
 With a focus on the TransMAP Hub Data Repository, a Python package is currently under development that will allow seamless imports of datasets hosted within the repository and easily queried directly into Pandas Data Frames
 ### Jupyter Notebooks
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/castuofa/transmap-examples/HEAD)
+
 The TransMAP Python package will be used to develop a series of interactive Jupyter Notebooks, served initially through BinderHub, that will showcase Use Cases or a variety of methodologies within which to analyze the data repository without the need for additional setup or installations.
 
 Examples of these will be linked within the "Notebooks" section of these documents and hosted on [Github - TransMAP Notebook Examples](https://github.com/castuofa/transmap-examples).
