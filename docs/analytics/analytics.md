@@ -12,7 +12,24 @@ Driven by the research objectives outlined in the various Use Cases, these inter
 
 ### Python API
 
-With a focus on the TransMAP Hub Data Repository, a Python package is currently under development that will allow seamless imports of datasets hosted within the repository and easily queried directly into Pandas Data Frames
+With a focus on the TransMAP Hub Data Repository, a Python package is currently under development that will allow seamless imports of datasets hosted within the repository and easily queried directly into Pandas Data Frames.
+
+When published, the package can be installed by running:
+
+```bash
+$ pip install transmap
+```
+
+And then importing using:
+
+```python
+
+from transmap import TransMAP
+
+Map = TransMap(...)
+
+```
+
 ### Jupyter Notebooks
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/castuofa/transmap-examples/HEAD)
