@@ -13,3 +13,6 @@ With a focus on the TransMAP Hub Data Repository, a Python package is currently 
 
 The TransMAP Python package will be used to develop a series of interactive Jupyter Notebooks, served initially through BinderHub, that will showcase Use Cases or a variety of methodologies within which to analyze the data repository without the need for additional setup or installations.
 
+Examples of these will be linked within the "Notebooks" section of these documents and hosted on [Github - TransMAP Notebook Examples](https://github.com/castuofa/transmap-examples).
+
+
