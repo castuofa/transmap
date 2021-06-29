@@ -66,11 +66,11 @@ markdown_extensions:
 nav:
   - 'About the Project': 'index.md'
   - 'Architecture': 'architecture.md'
-  # - 'TransMAP Hub Explorer':
+  - 'TransMAP Hub Explorer': 'explorer/explorer.md'
   #   - 'Usage': 'explorer_usage.md'
   #   - 'Use Cases': 'explorer_use_cases.md'
-  - 'TransMAP Analytics Hub': 'analytics/analytics.md'
   - 'TransMAP REST API': 'rest/api.md'
+  - 'TransMAP Analytics Hub': 'analytics/analytics.md'
   # - 'TransMAP Python API': 'placeholder.md'
   - 'Data Collections':
     - 'Vessel Movement': 'datasources/maritime_movement.md'
