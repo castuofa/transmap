@@ -6,6 +6,10 @@ While the TransMAP Hub Explorer interface facilitates exploratory access to the 
 
 Driven by the research objectives outlined in the various Use Cases, these interactive dashboards will be built using Streamlit.io to facilitate a guided, research focused exploration of specific datasets.
 
+
+![AnalyticsStreamlitExample](../img/analytics-streamlit.png){ loading=lazy }
+
+
 ### Python API
 
 With a focus on the TransMAP Hub Data Repository, a Python package is currently under development that will allow seamless imports of datasets hosted within the repository and easily queried directly into Pandas Data Frames
