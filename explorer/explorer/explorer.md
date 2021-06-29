@@ -7,13 +7,13 @@ The Explorer interface is a browser accessible spatial/temporal data exploration
 !!! warning
     The prototype is still under active development and does not yet contain all anticipated features. The final production of the interface is slated for October 2021
 
-![ExplorerActiveLayers](img/explorer-active-layers.png){ loading=lazy }
+![ExplorerActiveLayers](../img/explorer-active-layers.png){ loading=lazy }
 
 ### Loading Use Cases
 
 The majority of the acquired datasets are related in one way or another to the anticipated Use Cases. To explore these Use Cases in general detail and to identify the relevant datasets, the Explorer interface allows for easy loading of all spatio-temporal layers. To achieve this, see the below graphic:
 
-![ExplorerUseCases](img/explorer-use-cases.png){ loading=lazy }
+![ExplorerUseCases](../img/explorer-use-cases.png){ loading=lazy }
 
 ### Finding Data
 
@@ -24,7 +24,7 @@ While the datasets are mostly tied to the Use Cases in some way, there are still
 
 The Find Data module is a simplified filtering tool that allows the consumer to filter by date, theme, and keywords. Below is an example of how this module operates.
 
-![ExplorerFindData](img/explorer-find-data.png){ loading=lazy }
+![ExplorerFindData](../img/explorer-find-data.png){ loading=lazy }
 
 The TransMAP Hub Metadata platform is built with Geonetwork and provides an additional pathway to explore the multiple datasetss available within the TransMAP Data Repository.
 
@@ -38,7 +38,7 @@ In the Explorer interface, these aggregations can be iterated through a variety 
 
 Below is an example of the module:
 
-![ExplorerTimeStep](img/explorer-time-step.png){ loading=lazy }
+![ExplorerTimeStep](../img/explorer-time-step.png){ loading=lazy }
 
 
 ### Data Inspection
@@ -50,14 +50,14 @@ There are two methods to explore the attributes behind a given dataset that is p
 
 Within the "Data Tables" view, the various layers that have vector data, will display a **sample** (~100 rows) of the available attributes. This is formatted into an interactive table. See the following example:
 
-![ExplorerDataTables](img/explorer-data-tables.png){ loading=lazy }
+![ExplorerDataTables](../img/explorer-data-tables.png){ loading=lazy }
 
 !!! warning
     The data tables view does **not** include third-party image-based OGC services
 
 By clicking on any feature within the interface, it's possible to inspect the properties of that specific feature. If available, the attributes will pop-up in a small information box.
 
-![ExplorerIdentifyTool](img/explorer-identify.png){ loading=lazy }
+![ExplorerIdentifyTool](../img/explorer-identify.png){ loading=lazy }
 
 
 ### Downloading Data
