@@ -584,7 +584,19 @@
 <p>Driven by the research objectives outlined in the various Use Cases, these interactive dashboards will be built using Streamlit.io to facilitate a guided, research focused exploration of specific datasets.</p>
 <p><img alt="AnalyticsStreamlitExample" loading="lazy" src="../../img/analytics-streamlit.png" /></p>
 <h3 id="python-api">Python API<a class="headerlink" href="#python-api" title="Permanent link">&para;</a></h3>
-<p>With a focus on the TransMAP Hub Data Repository, a Python package is currently under development that will allow seamless imports of datasets hosted within the repository and easily queried directly into Pandas Data Frames</p>
+<p>With a focus on the TransMAP Hub Data Repository, a Python package is currently under development that will allow seamless imports of datasets hosted within the repository and easily queried directly into Pandas Data Frames.</p>
+<p>When published, the package can be installed by running:</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>$ pip install transmap
+</code></pre></div>
+</td></tr></table>
+<p>And then importing using:</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">transmap</span> <span class="kn">import</span> <span class="n">TransMAP</span>
+
+<span class="n">Map</span> <span class="o">=</span> <span class="n">TransMap</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
+</code></pre></div>
+</td></tr></table>
 <h3 id="jupyter-notebooks">Jupyter Notebooks<a class="headerlink" href="#jupyter-notebooks" title="Permanent link">&para;</a></h3>
 <p><a href="https://mybinder.org/v2/gh/castuofa/transmap-examples/HEAD"><img alt="Binder" src="https://mybinder.org/badge_logo.svg" /></a></p>
 <p>The TransMAP Python package will be used to develop a series of interactive Jupyter Notebooks, served initially through BinderHub, that will showcase Use Cases or a variety of methodologies within which to analyze the data repository without the need for additional setup or installations.</p>
