@@ -69,7 +69,7 @@ nav:
   # - 'TransMAP Hub Explorer':
   #   - 'Usage': 'explorer_usage.md'
   #   - 'Use Cases': 'explorer_use_cases.md'
-  # - 'TransMAP Hub Analytics': 'placeholder.md'
+  - 'TransMAP Analytics Hub': 'analytics/analytics.md'
   - 'TransMAP REST API': 'rest/api.md'
   # - 'TransMAP Python API': 'placeholder.md'
   - 'Data Collections':
