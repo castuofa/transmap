@@ -3,9 +3,9 @@
 The Use Case Coverage Matrix shows how each of the following use cases will demonstrate TransMAP Hub’s
 system coverage and capabilities:
 
-1. [Use Case One: Economic Impacts](/use_cases/one)
-2. [Use Case Two: Dredging Statistics](/use_cases/two)
-3. [Use Case One: Seasonal Lock Usage](/use_cases/three)
+1. [Use Case One: Economic Impacts](/transmap/use_cases/one)
+2. [Use Case Two: Dredging Statistics](/transmap/use_cases/two)
+3. [Use Case One: Seasonal Lock Usage](/transmap/use_cases/three)
 
 The level of demonstration is indicated as **E** if the use case is expected to demonstrate an element, **P** if the use case may possibly demonstrate an element, and left blank if the use case is not expected to demonstrate an element in the matrix. Highlights of the system coverage and capability of the use cases is discussed below:
 
