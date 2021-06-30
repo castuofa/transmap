@@ -14,6 +14,9 @@ Driven by the research objectives outlined in the various Use Cases, these inter
 
 With a focus on the TransMAP Hub Data Repository, a Python package is currently under development that will allow seamless imports of datasets hosted within the repository and easily queried directly into Pandas Data Frames.
 
+!!! info
+    This package is published to PyPI at: [transmap](https://pypi.org/project/transmap/)
+
 When published, the package can be installed by running:
 
 ```bash
