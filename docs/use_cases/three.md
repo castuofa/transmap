@@ -103,9 +103,9 @@ Frequency of use will likely depend on the time basis for creation of new datase
 ### Contacts
 
 **Justin Chimka**
-Associate Professor
-Department of Industrial Engineering
-University of Arkansas, Fayetteville
+
+Associate Professor, Department of Industrial Engineering, University of Arkansas, Fayetteville
+
 
 **Center for Advanced Spatial Technologies (CAST)**
 

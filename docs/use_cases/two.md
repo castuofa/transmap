@@ -79,9 +79,9 @@ Planning efforts at USACE typically are done by region and occur at multiple tim
 ### Contacts
 
 **Chase Rainwater**
-Associate Professor
-Department of Industrial Engineering
-University of Arkansas, Fayetteville
+
+Associate Professor, Department of Industrial Engineering, University of Arkansas, Fayetteville
+
 
 **Center for Advanced Spatial Technologies (CAST)**
 
