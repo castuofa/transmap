@@ -69,9 +69,8 @@ Annually or as needed after a triggering event
 ### Contacts
 
 **Heather Nachtmann**
-Professor
-Department of Industrial Engineering
-University of Arkansas, Fayetteville
+
+Professor, Department of Industrial Engineering, University of Arkansas, Fayetteville
 
 
 **Center for Advanced Spatial Technologies (CAST)**
