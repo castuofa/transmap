@@ -65,7 +65,12 @@ markdown_extensions:
 # give a title for each page
 nav:
   - 'About the Project': 'index.md'
-  - 'Architecture': 'architecture.md'
+  - 'Use Cases':
+    - 'Use Case: One': 'use_cases/one.md'
+    - 'Use Case: Two': 'use_cases/two.md'
+    - 'Use Case: Three': 'use_cases/three.md'
+    - 'Coverage Matrix': 'use_cases/matrix.md'
+  - 'TransMAP Hub Architecture': 'architecture.md'
   - 'TransMAP Hub Explorer': 'explorer/explorer.md'
   #   - 'Usage': 'explorer_usage.md'
   #   - 'Use Cases': 'explorer_use_cases.md'
