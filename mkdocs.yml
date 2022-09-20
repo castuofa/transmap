@@ -65,6 +65,7 @@ markdown_extensions:
 # give a title for each page
 nav:
   - 'About the Project': 'index.md'
+  - 'Quickstart Guide': 'quickstart.md'
   - 'Use Cases':
     - 'Use Case: One': 'use_cases/one.md'
     - 'Use Case: Two': 'use_cases/two.md'
