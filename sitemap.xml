@@ -2,102 +2,102 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://castuofa.github.io/transmap/</loc>
-         <lastmod>2021-06-30</lastmod>
+         <lastmod>2022-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://castuofa.github.io/transmap/architecture/</loc>
-         <lastmod>2021-06-30</lastmod>
+         <lastmod>2022-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://castuofa.github.io/transmap/geonetwork/</loc>
-         <lastmod>2021-06-30</lastmod>
+         <lastmod>2022-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://castuofa.github.io/transmap/analytics/analytics/</loc>
-         <lastmod>2021-06-30</lastmod>
+         <lastmod>2022-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://castuofa.github.io/transmap/datasources/demographic/</loc>
-         <lastmod>2021-06-30</lastmod>
+         <lastmod>2022-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://castuofa.github.io/transmap/datasources/environment/</loc>
-         <lastmod>2021-06-30</lastmod>
+         <lastmod>2022-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://castuofa.github.io/transmap/datasources/imagery/</loc>
-         <lastmod>2021-06-30</lastmod>
+         <lastmod>2022-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://castuofa.github.io/transmap/datasources/maritime_movement/</loc>
-         <lastmod>2021-06-30</lastmod>
+         <lastmod>2022-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://castuofa.github.io/transmap/datasources/navigation/</loc>
-         <lastmod>2021-06-30</lastmod>
+         <lastmod>2022-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://castuofa.github.io/transmap/datasources/networks/</loc>
-         <lastmod>2021-06-30</lastmod>
+         <lastmod>2022-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://castuofa.github.io/transmap/explorer/explorer/</loc>
-         <lastmod>2021-06-30</lastmod>
+         <lastmod>2022-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://castuofa.github.io/transmap/notebooks/</loc>
-         <lastmod>2021-06-30</lastmod>
+         <lastmod>2022-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://castuofa.github.io/transmap/notebooks/notebooks/ais_traffic/</loc>
-         <lastmod>2021-06-30</lastmod>
+         <lastmod>2022-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://castuofa.github.io/transmap/notebooks/notebooks/lock_analysis/</loc>
-         <lastmod>2021-06-30</lastmod>
+         <lastmod>2022-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://castuofa.github.io/transmap/notebooks/notebooks/vessel_codes/</loc>
-         <lastmod>2021-06-30</lastmod>
+         <lastmod>2022-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://castuofa.github.io/transmap/rest/api/</loc>
-         <lastmod>2021-06-30</lastmod>
+         <lastmod>2022-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://castuofa.github.io/transmap/use_cases/matrix/</loc>
-         <lastmod>2021-06-30</lastmod>
+         <lastmod>2022-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://castuofa.github.io/transmap/use_cases/one/</loc>
-         <lastmod>2021-06-30</lastmod>
+         <lastmod>2022-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://castuofa.github.io/transmap/use_cases/three/</loc>
-         <lastmod>2021-06-30</lastmod>
+         <lastmod>2022-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://castuofa.github.io/transmap/use_cases/two/</loc>
-         <lastmod>2021-06-30</lastmod>
+         <lastmod>2022-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
