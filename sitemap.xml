@@ -16,6 +16,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://castuofa.github.io/transmap/quickstart/</loc>
+         <lastmod>2022-09-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://castuofa.github.io/transmap/analytics/analytics/</loc>
          <lastmod>2022-09-21</lastmod>
          <changefreq>daily</changefreq>

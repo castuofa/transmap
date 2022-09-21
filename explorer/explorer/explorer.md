@@ -4,16 +4,7 @@ The Explorer interface is a browser accessible spatial/temporal data exploration
 
 **Access the latest interface**: [TransMAP Hub Explorer](https://oak.cast.uark.edu/explorer)
 
-!!! warning
-    The prototype is still under active development and does not yet contain all anticipated features. The final production of the interface is slated for October 2021
-
 ![ExplorerActiveLayers](../img/explorer-active-layers.png){ loading=lazy }
-
-### Loading Use Cases
-
-The majority of the acquired datasets are related in one way or another to the anticipated Use Cases. To explore these Use Cases in general detail and to identify the relevant datasets, the Explorer interface allows for easy loading of all spatio-temporal layers. To achieve this, see the below graphic:
-
-![ExplorerUseCases](../img/explorer-use-cases.png){ loading=lazy }
 
 ### Finding Data
 
