@@ -6,12 +6,6 @@ The Explorer interface is a browser accessible spatial/temporal data exploration
 
 ![ExplorerActiveLayers](../img/explorer-active-layers.png){ loading=lazy }
 
-### Loading Use Cases
-
-The majority of the acquired datasets are related in one way or another to the anticipated Use Cases. To explore these Use Cases in general detail and to identify the relevant datasets, the Explorer interface allows for easy loading of all spatio-temporal layers. To achieve this, see the below graphic:
-
-![ExplorerUseCases](../img/explorer-use-cases.png){ loading=lazy }
-
 ### Finding Data
 
 While the datasets are mostly tied to the Use Cases in some way, there are still multiple other datasets that can be added to the interface as desired. These can be explored in two ways - both of which query the same sources within the data repository.
