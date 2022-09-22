@@ -1,6 +1,5 @@
-# TransMAP Analytics Hub Quick Start Guide (OSG)
+# TransMAP Hub Quick Start Guide (QSG)
 
-### <https://transmap.cast.uark.edu>
 TransMAP Hub is intended to serve a variety of communities, from the casual user looking for inland waterway related data resources to a data scientist trying to integrate and analyze heterogenous and complex data sources. At its core, it is a data repository containing
 
 - maritime traffic related datasets from a variety of sources: USACE, NTAD, BTS
@@ -25,14 +24,14 @@ The Hub is organized as a broswer application that gives access to intergrated a
 
 While the TransMAP Hub Explorer interface facilitates exploratory access to the TransMAP Hub Data Repository, the overall functionality for more intermediate and advanced consumers is somewhat limiting. Therefore, two approaches - python notebooks and the transmap python package - are currently provided to accommodate researchers looking to gain deeper insights into the data repository without exporting and/or downloading entire datasets.
 
-## TransMAP Hub main page
+## TransMAP Hub: Main Page
   
-![TransMAP Hub main page](../quickstart/quickstart_Page_01.png)
+![Slide 1](./quickstart/Slide1.jpg)
 
-![TransMAP Hub main page](../quickstart/quickstart_Page_02.png)
+![Slide 2](./quickstart/Slide2.jpg)
 
   
-## TransMAP RESOURCES
+## TransMAP RESOURCES: Overview
 
 The RESOURCES is where you search for Hub resources. Resources consist of four distinct things:
 
@@ -41,74 +40,62 @@ The RESOURCES is where you search for Hub resources. Resources consist of four d
 - Python Notebooks: Jupyter notebooks, documents that can integrate structured text, equations, images, tables, and *active python code*. These notebooks are targeted at data scientists. Use Cases employ notebooks that show how the data supporting the study was access, analyized, and presented.
 - Applications: Also called dashboards, applications are purpose-built to support a particular set of analyses. Two of the Use Cases use Streamlit (a pytyon-based library) to build interactive dashboards.
 
-![Slide 3](../quickstart/quickstart_Page_03.png)
+![Slide 3](./quickstart/Slide3.jpg)
 
-<br>
-<br>
-
-## RESOURCES-specific Metadata pages
+## TransMAP RESOURCES: Metadata
 
 Each resource, no matter it's type or category, has an associated metadata page that contains information about the source of the resource, its currency, and links to the publishers service or website. It also allows for a preview of the data and links for download (if applicable) and adding to Explorer.
 
+![Slide 4](./quickstart/Slide4.jpg)
+![Slide 5](./quickstart/Slide5.jpg)
 
-![Slide 4](../quickstart/quickstart_Page_04.png)
-
-![Slide 5](../quickstart/quickstart_Page_05.png)
-
-## RESOURCES page revisited
+## TransMAP RESOURCES: Filtering
 
 We revisit the RESOURCES to see the effects of adding filters via the TYPES and CATEORIES breakdown on the left vertical panel.
 
-![Slide 6](../quickstart/quickstart_Page_06.png)
+![Slide 6](./quickstart/Slide6.jpg)
+![Slide 7](./quickstart/Slide7.jpg)
 
-![Slide 7](../quickstart/quickstart_Page_07.png)
-
-### TransMAP EXPLORER
+## TransMAP EXPLORER: Overview
 
 Before you add layers to Explorer, take a moment to orient yourself to the Explorer map interface.
 
-![Slide 8](../quickstart/quickstart_Page_08.png)
+![Slide 8](./quickstart/Slide8.jpg)
 
-### TransMAP RESOURCES
-
-<br>
+## TransMAP RESOURCES: Adding Layers
 
 The RESOURCES page in a state showing four data layers ready to add to Explorer
 
-![Slide 9](../quickstart/Slide9.png)
+![Slide 9](./quickstart/Slide9.jpg)
 
-### TransMAP EXPLORER
+## TransMAP EXPLORER: Feature Highlights
 
 The next three views highlight various aspects of Explorer. One of the key elements of Explorer is its ability to explore historical datasets.
 
-![Slide 10](../quickstart/quickstart_Page_10.png)
+![Slide 10](../quickstart/Slide10.jpg)
 
-![Slide 11](../quickstart/quickstart_Page_11.png)
+![Slide 11](./quickstart/Slide11.jpg)
 
-![Slide 12](../quickstart/quickstart_Page_12.png)
+![Slide 12](./quickstart/Slide12.jpg)
 
-### TransMAP EXPLORER Basemaps
+## TransMAP EXPLORER: Basemaps
 
 Explorer can draw on several basemaps that provide context to the maritime data. The light and dark maps allow a user to focus on the data. The topogrpahic maps show elevation changes while the street maps show the urban and regional built environment. Aerial imagery highlights landcover.
 
-![Slide 13](../quickstart/quickstart_Page_13.png)
+![Slide 13](./quickstart/Slide13.jpg)
 
-### TransMAP RESOURCES: Python Notebooks
+## TransMAP RESOURCES: Python Notebooks
 
 Notebook resources can be seen by filtering on TYPE Python Notebooks. They also have their own metadata pages from which the GitHub repository where the notebook resides can be accessed.
 
-![Slide 14](../quickstart/quickstart_Page_14.png)
+![Slide 14](./quickstart/Slide14.jpg)
+![Slide 15](./quickstart/Slide15.jpg)
+![Slide 16](./quickstart/Slide16.jpg)
 
-![Slide 15](../quickstart/quickstart_Page_15.png)
-
-![Slide 16](../quickstart/quickstart_Page_16.png)
-
-### TransMAP RESOURCES: Applications
+### TransMAP RESOURCES: Applications and Dashboards
 
 Another type of resource in TransMAP are applicatins (or dashboards) build using a python package called Streamlit. These applications access Hub datasets and use them to perform analysis and visualization, answering specific questions. The current applications are related to two Use Cases.
 
-![Slide 17](../quickstart/quickstart_Page_17.png)
-
-![Slide 18](../quickstart/quickstart_Page_18.png)
-
-![Slide 19](../quickstart/quickstart_Page_19.png)
+![Slide 17](./quickstart/Slide17.jpg)
+![Slide 18](./quickstart/Slide18.jpg)
+![Slide 19](./quickstart/Slide19.jpg)
