@@ -2,5 +2,5 @@
 
 Most of the data stored directly within the TransMAP Hub Data Repository will be documented and sourced from within a GeoNetwork instance hosted by the Center for Advanced Spatial Technologies.
 
-**TransMAP Metadata URL**: [TransMAP Metadata Hub]https://oak.cast.uark.edu/explorer/Resources)
+**TransMAP Metadata URL**: [TransMAP Metadata Hub]https://transmap.cast.uark.edu/explorer/Resources)
 
