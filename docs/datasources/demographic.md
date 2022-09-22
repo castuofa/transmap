@@ -4,7 +4,7 @@
 
 ### U.S. Census - American Community Survey (1 year)
 
-- [Metadata](https://oak.cast.uark.edu/geonetwork)
+- [Metadata](https://transmap.cast.uark.edu/explorer/Resources)
 - **Temporal Extent**: 2015, 2016, 2017, 2018, 2019, 2020
 - **Temporal Resolution**: Annual
 - **Spatial Extent**: National
@@ -14,7 +14,7 @@
 
 ### U.S. Census - American Community Survey (5 year)
 
-- [Metadata](https://oak.cast.uark.edu/geonetwork)
+- [Metadata](https://transmap.cast.uark.edu/explorer/Resources)
 - **Temporal Extent**: 2010 - 2014, 2015 - 2019
 - **Temporal Resolution**: 5 years
 - **Spatial Extent**: National
