@@ -1,8 +1,8 @@
 # TransMAP Hub Explorer
 
-The Explorer interface is a browser accessible spatial/temporal data exploration tool that encourages visual interactions with the TransMAP Hub Data Repository. As with many of the resources provided within the scope of this project, the Explorer is built around the various Use Cases and proofs of concept. These can be loaded into the Explorer interface with a single click where each dataset is loaded and spatially and temporally filtered to the relevant extents. With a design focus similar to a wide variety of geospatial/GIS viewers, the data layers can be manipulated, reordered, toggled, features inspected, and downloaded alongside additional layers that can be added, filtered, or searched based on temporal extents and thematic groups.
+The Explorer interface is a browser accessible spatial/temporal data exploration tool that encourages visual interactions with the TransMAP Hub Data Repository. With a design focus similar to a wide variety of geospatial/GIS viewers, the data layers can be manipulated, reordered, toggled, features inspected, and downloaded alongside additional layers that can be added, filtered, or searched based on temporal extents and thematic groups. The Explorer is not intended as an analytical tool but was designed to allow fast inspection of available datasets in a given area during specific time period.
 
-**Access the latest interface**: [TransMAP Hub Explorer](https://transmap.cast.uark.edu/explorer)
+**Access the latest interface**: [TransMAP Hub Explorer](https://transmap.cast.uark.edu/)
 
 ![ExplorerActiveLayers](../img/explorer-active-layers.png){ loading=lazy }
 
