@@ -79,13 +79,12 @@ nav:
   - 'TransMAP Analytics Hub': 'analytics/analytics.md'
   - 'TransMAP Metadata Hub': 'geonetwork.md'
   # - 'TransMAP Python API': 'placeholder.md'
-  - 'Data Collections':
-    - 'Vessel Movement': 'datasources/maritime_movement.md'
-    - 'Multi-modal Networks': 'datasources/networks.md'
-    - 'Navigation': 'datasources/navigation.md'
-    - 'Environmental': 'datasources/environment.md'
-    - 'Overhead Imagery': 'datasources/imagery.md'
-    - 'Social & Demographic': 'datasources/demographic.md'
-  - 'Notebooks':
-    - notebooks/notebooks/ais_traffic.ipynb
-    - notebooks/notebooks/lock_analysis.ipynb
+  #- 'Data Collections':
+  #  - 'Vessel Movement': 'datasources/maritime_movement.md'
+  #  - 'Multi-modal Networks': 'datasources/networks.md'
+  #  - 'Navigation': 'datasources/navigation.md'
+  #  - 'Environmental': 'datasources/environment.md'
+  #  - 'Social & Demographic': 'datasources/demographic.md'
+  #- 'Notebooks':
+  #  - notebooks/notebooks/ais_traffic.ipynb
+  #  - notebooks/notebooks/lock_analysis.ipynb
