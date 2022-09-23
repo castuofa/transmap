@@ -77,7 +77,7 @@ nav:
   #   - 'Use Cases': 'explorer_use_cases.md'
   - 'TransMAP REST API': 'rest/api.md'
   - 'TransMAP Analytics Hub': 'analytics/analytics.md'
-  - 'TransMAP Metadata Hub': 'geonetwork.md'
+  - 'TransMAP Metadata Hub': 'metadata.md'
   # - 'TransMAP Python API': 'placeholder.md'
   - 'Data Collections':
     - 'Vessel Movement': 'datasources/maritime_movement.md'
