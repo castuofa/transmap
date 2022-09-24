@@ -1,5 +1,5 @@
 # Use Case
-## Constructing and Learning from Seasonal Lock Usage Datasets
+## Constructing Event Level Time Series Datasets on Lock Unavailability
 
 ### Description
 
