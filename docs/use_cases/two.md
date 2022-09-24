@@ -8,10 +8,9 @@ Dredge maintenance is an essential operation to ensure navigable waterways. Task
 
 ### Target User(s)
 
-TransMAP Hub will connect with Civil Works Business Open Application Programming Interface (API), as well as the National Channel Framework service available via ArcGIS. These sources of data will be supplemented with the import of off-line USACE databases for environmental restrictions, dredge fleet characteristics and existing dredge operations plans.
+TransMap Hub hosts USACE databases for environmental restrictions, dredge fleet characteristics and existing dredge operations plans.  
 
-The TransMAP Hub users for this use case are both the USACE leadership and operations teams, as well as industrial and civil engineering researchers from academia. TransMAP will also enable interested industry representatives from the dredge industry to better plan for dredge bids and improve partnerships with the government.
-
+The external TransMap Hub users for this use case are both the USACE leadership and operations teams, as well as industrial and civil engineering researchers from academia.  TransMap will also enable interested industry representatives from the dredge industry to better plan for dredge bids and improve partnerships with the government.  
 
 ### Pre-TransMAP Hub Conditions
 
@@ -20,49 +19,26 @@ The information made available through the TransMAP Hub in this use case is curr
 
 ### Post-TransMAP Hub Conditions
 
-Once the information described in the previous sections is imported and/or linked to the TransMAP Hub, ongoing maintenance will be done in two ways. First, waterway network information, dredge job location information and dredge fleet capabilities will be automatically maintained through the data exchange with the Civil Works Business Open API and the National Channel Framework. Second, dredge financial data, existing dredge operation plans (e.g. updated schedules from USACE logistic planners and academic researchers incorporating TransMAP information into their decision making tools) and environmental requirements (updated irregularly by the Environmental Protection Agency) will need to be retrieved from the source and uploaded on a regular schedule. It is anticipated that these updates would be no more frequently than once per month.
-
+First, waterway network information is maintained through automated resources in TransMAP.  Second, dredge financial data (e.g. bid information, operating costs), existing dredge operation plans (e.g. updated schedules from USACE logistic planners and academic researchers incorporating TransMAP information into their decision-making tools) and environmental requirements (updated irregularly by the Environmental Protection Agency) must be retrieved from the source and uploaded on a regular schedule.  
 
 ### Advantages & New Capabilities
 
-**Users of any level of maritime experience will find reliable access to a current representation of the United States inland waterway network** that includes the following components:
+#### _Visualization Component_
 
-- Location of locks, dams, and any other critical infrastructure element that may impact movement of dredges
+**Users can view the following maritime network characteristics in the TransMap Hub user interface**
+
 - Historical dredging locations
-- Waterway pathways for possible flow of dredges between potential jobs
-- Home “base” (e.g. port) of each potential dredge that is available for dredge operations
+- Location of locks, dams, and any other critical infrastructure
+- Waterway pathways for possible flow of dredeges between potential jobs
 
-**Users will be provided a visualization platform** to evaluate future dredging schedules, current status of dredging operations and historical execution of dredging maintenance. Visualization opportunities include the following
+**Users can view the following characteristics associated with a current dredge** schedule being executed at the time the user is accessing the TransMap Hub
+  
+- User can view dredge jobs of interest
+- Users can view characteristics of dredge fleet executing the most dredge plan currently in operation
 
-- Dredge jobs filtered by size
-- Dredge jobs filtered by environmental restriction(s)
-- Dredge jobs filtered by day/month in which they are scheduled
-- Viewing characteristics of dredge fleet
-    - Dredges filtered by type: government-owned or commercial (private)
-    - Dredges filtered by region
-    - Dredges filtered by mobilization speed
-    - Dredged filtered by operational characteristics
-        - Dredging rate
-        - Dredging cost per cubic yard
-- Dredge job locations not available for operations due to future environmental windows in a specified time interval
+#### _Analysis Component_
 
-**Users will reduce their time and effort** required to obtain the following data elements needed for dredge scheduling and maintenance decisions and performance analysis.
-
-- Budgetary information by year
-    - Individual dredge cost per day (includes labor, equipment and fuel)
-    - Individual dredge mobilization cost
-    - USACE budget amount
-- Dredge requirements (predicted and actual) for a specified year
-- Environmental restrictions by location and animal species for a specified year
-- Time-expanded dredge schedule for a particular year
-- Maritime network component locations at a specified point in time
-- Historical summary reports of maintenance operations that include
-    - Total cubic yards dredged per job location
-    - Cost analysis
-        - Amount spent on dredge mobilization
-        - Amount spent on dredge operations
-    - Dredge plan efficiency
-        - % of overall dredging needs satisfied in a particular year
+In addition to viewing historical dredge information, a researcher can make use of information accessible in TransMAP Hub to make operational decisions.  In the provided Jupyter Notebook environment, this use integrated TransMAP Hub information with open-source optimization tools to assist decision makers in assigning and scheduling dredges to maximize cubic yards dredged over a specified period.  The Dredge Optimization Dashboard allows the research to quickly modify scheduling parameters (e.g. number of jobs, speed of dredge operations).  The optimization implementation implemented in a Jupyter Notebook then solves the associated scheduling problem in less than ten minutes.  Results are viewable directly in the Dredge Optimization Dashboard and specify when a job is completed and which dredge is assigned to each job.
 
 ### Challenges
 
@@ -70,18 +46,15 @@ The main challenges for the user to have a successful experience with accessing 
 
 The main challenge for TransMAP Hub in this use case will be establishing and maintaining a formal acquisition relationship with key USACE contacts in order to regularly populate TransMAP Hub with the most current operational and planning information.
 
-
 ### Frequency of Use
 
 Planning efforts at USACE typically are done by region and occur at multiple times throughout the year. Therefore, it is anticipated that this use case would be exercised approximately once per month. However, maritime researchers seeking to assist USACE with tools to improve dredge operations planning will likely utilize the resource on a more frequent basis.
-
 
 ### Contacts
 
 **Chase Rainwater**
 
 Associate Professor, Department of Industrial Engineering, University of Arkansas, Fayetteville
-
 
 **Center for Advanced Spatial Technologies (CAST)**
 
