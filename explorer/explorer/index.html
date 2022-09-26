@@ -417,20 +417,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#data-inspection" class="md-nav__link">
-    Data Inspection
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#downloading-data" class="md-nav__link">
-    Downloading Data
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -524,20 +510,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#data-inspection" class="md-nav__link">
-    Data Inspection
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#downloading-data" class="md-nav__link">
-    Downloading Data
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -554,47 +526,28 @@
 
 
 <h1 id="transmap-hub-explorer">TransMAP Hub Explorer<a class="headerlink" href="#transmap-hub-explorer" title="Permanent link">&para;</a></h1>
-<p>The Explorer interface is a browser accessible spatial/temporal data exploration tool that encourages visual interactions with the TransMAP Hub Data Repository. As with many of the resources provided within the scope of this project, the Explorer is built around the various Use Cases and proofs of concept. These can be loaded into the Explorer interface with a single click where each dataset is loaded and spatially and temporally filtered to the relevant extents. With a design focus similar to a wide variety of geospatial/GIS viewers, the data layers can be manipulated, reordered, toggled, features inspected, and downloaded alongside additional layers that can be added, filtered, or searched based on temporal extents and thematic groups.</p>
-<p><strong>Access the latest interface</strong>: <a href="https://transmap.cast.uark.edu/explorer">TransMAP Hub Explorer</a></p>
+<p>The Explorer interface is a browser accessible spatial/temporal data exploration tool that encourages visual interactions with the TransMAP Hub Data Repository. With a design focus similar to a wide variety of geospatial/GIS viewers, the data layers can be manipulated, reordered, toggled, features inspected, and downloaded alongside additional layers that can be added, filtered, or searched based on temporal extents and thematic groups. The Explorer is not intended as an analytical tool but was designed to allow fast inspection of available datasets in a given area during specific time period.</p>
+<p><strong>Access the latest interface</strong>: <a href="https://transmap.cast.uark.edu/">TransMAP Hub Explorer</a></p>
 <p><img alt="ExplorerActiveLayers" loading="lazy" src="../../img/explorer-active-layers.png" /></p>
 <h3 id="finding-data">Finding Data<a class="headerlink" href="#finding-data" title="Permanent link">&para;</a></h3>
 <p>While the datasets are mostly tied to the Use Cases in some way, there are still multiple other datasets that can be added to the interface as desired. These can be explored in two ways - both of which query the same sources within the data repository.</p>
 <ol>
-<li>Through the Explorer interface using the Find Data module</li>
+<li>Through the Explorer interface using the Resources module</li>
 <li>By exploring the TransMAP Hub Metadata interface</li>
 </ol>
-<p>The Find Data module is a simplified filtering tool that allows the consumer to filter by date, theme, and keywords. Below is an example of how this module operates.</p>
-<p><img alt="ExplorerFindData" loading="lazy" src="../../img/explorer-find-data.png" /></p>
-<p>The TransMAP Hub Metadata platform is built with Geonetwork and provides an additional pathway to explore the multiple datasetss available within the TransMAP Data Repository.</p>
+<p>The TransMAP Hub Metadata platform provides an additional pathway to explore the multiple datasetss available within the TransMAP Data Repository.</p>
+<p>See the <a href="https://castuofa.github.io/transmap/quickstart/">Quickstart Guide</a> in this documentation for more information on both the Explorer and Resources pages.</p>
 <p>It is worth noting that some of the returned datasets are pulling from third-party services - specifically OGC map services. While these help in visually exploring the available datasets, it is not currently possible nor within the scope of this project to extract and store these services as well. It was determined that these third party sources are reliable, rarely changing sources that provide more than adequate functionality on their own. Therefore, metadata sources are primarily links to these source locations but are provided within the TransMAP Explorer and Metadata Hubs for searching and filtering conveniences.</p>
 <h3 id="stepping-through-time">Stepping Through Time<a class="headerlink" href="#stepping-through-time" title="Permanent link">&para;</a></h3>
 <p>One of the key features of the Explorer interface is the ability to "step through time" when interacting with <em>time enabled</em> datasets. A common fixture of this type of dataset is the AIS Vessel Traffic data. Given the temporal resolution of this data, often sampled at 1 second intervals, it is important to aggregate these within most viewers or analytics platforms.</p>
-<p>In the Explorer interface, these aggregations can be iterated through a variety of temporal steps including +/- 1hr, 1day, 1week, and 1year. When a time enabled layer is added to the interface, it immediately responds to the settings applied within the time step module.</p>
-<p>Below is an example of the module:</p>
-<p><img alt="ExplorerTimeStep" loading="lazy" src="../../img/explorer-time-step.png" /></p>
-<h3 id="data-inspection">Data Inspection<a class="headerlink" href="#data-inspection" title="Permanent link">&para;</a></h3>
-<p>There are two methods to explore the attributes behind a given dataset that is provided by the TransMAP Data Repository directly.</p>
-<ol>
-<li>Data Tables</li>
-<li>Feature Info</li>
-</ol>
-<p>Within the "Data Tables" view, the various layers that have vector data, will display a <strong>sample</strong> (~100 rows) of the available attributes. This is formatted into an interactive table. See the following example:</p>
-<p><img alt="ExplorerDataTables" loading="lazy" src="../../img/explorer-data-tables.png" /></p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>The data tables view does <strong>not</strong> include third-party image-based OGC services</p>
-</div>
-<p>By clicking on any feature within the interface, it's possible to inspect the properties of that specific feature. If available, the attributes will pop-up in a small information box.</p>
-<p><img alt="ExplorerIdentifyTool" loading="lazy" src="../../img/explorer-identify.png" /></p>
-<h3 id="downloading-data">Downloading Data<a class="headerlink" href="#downloading-data" title="Permanent link">&para;</a></h3>
-<p>The specifics for this module are still under active development and exploration. Updates will be provided here once the roadmap for this feature is completed.</p>
+<p>In the Explorer interface, these aggregations can be iterated through a variety of temporal steps including +/- 1hr, 1day, 1week, and 1year. When a time enabled layer is added to the interface, it immediately responds to the settings applied within the time step module. Again, the <a href="https://castuofa.github.io/transmap/quickstart/">Quickstart Guide</a> provides more information.</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      2022-09-22
+      2022-09-24
     
   </small>
 </div>

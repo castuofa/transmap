@@ -434,22 +434,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#interactive-dashboards" class="md-nav__link">
-    Interactive Dashboards
+  <a href="#interactive-applications-or-dashboards" class="md-nav__link">
+    Interactive Applications (or Dashboards)
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#python-api" class="md-nav__link">
-    Python API
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#jupyter-notebooks" class="md-nav__link">
-    Jupyter Notebooks
+  <a href="#python-api-and-package" class="md-nav__link">
+    Python API and Package
   </a>
   
 </li>
@@ -504,22 +497,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#interactive-dashboards" class="md-nav__link">
-    Interactive Dashboards
+  <a href="#interactive-applications-or-dashboards" class="md-nav__link">
+    Interactive Applications (or Dashboards)
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#python-api" class="md-nav__link">
-    Python API
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#jupyter-notebooks" class="md-nav__link">
-    Jupyter Notebooks
+  <a href="#python-api-and-package" class="md-nav__link">
+    Python API and Package
   </a>
   
 </li>
@@ -541,36 +527,24 @@
 
 <h1 id="transmap-analytics-hub">TransMAP Analytics Hub<a class="headerlink" href="#transmap-analytics-hub" title="Permanent link">&para;</a></h1>
 <p>While the TransMAP Hub Explorer interface facilitates exploratory access to the TransMAP Hub Data Repository, the overall functionality for more intermediate and advanced consumers is somewhat limiting. Therefore, two approaches are currently under active development to accommodate researchers looking to gain deeper insights into the data repository without exporting and/or downloading entire datasets.</p>
-<h3 id="interactive-dashboards">Interactive Dashboards<a class="headerlink" href="#interactive-dashboards" title="Permanent link">&para;</a></h3>
-<p>Driven by the research objectives outlined in the various Use Cases, these interactive dashboards will be built using Streamlit.io to facilitate a guided, research focused exploration of specific datasets.</p>
+<h3 id="interactive-applications-or-dashboards">Interactive Applications (or Dashboards)<a class="headerlink" href="#interactive-applications-or-dashboards" title="Permanent link">&para;</a></h3>
+<p>Driven by the research objectives outlined in the use cases, two interactive dashboards avaialable. These are built using <a href="https://docs.streamlit.io/">Streamlit</a> and facilitate guided, research focused explorations of specific datasets. The example below examines highlights activity captured in the USACE Lock Performance Monitoring System <a href="https://ndc.ops.usace.army.mil/ords/f?p=108:1::::::">(LPMS)</a>.</p>
 <p><img alt="AnalyticsStreamlitExample" loading="lazy" src="../../img/analytics-streamlit.png" /></p>
-<h3 id="python-api">Python API<a class="headerlink" href="#python-api" title="Permanent link">&para;</a></h3>
-<p>With a focus on the TransMAP Hub Data Repository, a Python package is currently under development that will allow seamless imports of datasets hosted within the repository and easily queried directly into Pandas Data Frames.</p>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>This package is published to PyPI at: <a href="https://pypi.org/project/transmap/">transmap</a></p>
-</div>
-<p>When published, the package can be installed by running:</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>$ pip install transmap
-</code></pre></div></td></tr></table></div>
-<p>And then importing using:</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span> <span class="nn">transmap</span> <span class="kn">import</span> <span class="n">TransMAP</span>
-
-<span class="n">Map</span> <span class="o">=</span> <span class="n">TransMap</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
-</code></pre></div></td></tr></table></div>
-<h3 id="jupyter-notebooks">Jupyter Notebooks<a class="headerlink" href="#jupyter-notebooks" title="Permanent link">&para;</a></h3>
-<p><a href="https://mybinder.org/v2/gh/castuofa/transmap-examples/HEAD"><img alt="Binder" src="https://mybinder.org/badge_logo.svg" /></a></p>
-<p>The TransMAP Python package will be used to develop a series of interactive Jupyter Notebooks, served initially through BinderHub, that will showcase Use Cases or a variety of methodologies within which to analyze the data repository without the need for additional setup or installations.</p>
-<p>Examples of these will be linked within the "Notebooks" section of these documents and hosted on <a href="https://github.com/castuofa/transmap-examples">Github - TransMAP Notebook Examples</a>.</p>
+<p>Two other applications (dashboards) are available as Resources in the Hub.</p>
+<ol>
+<li><a href="https://transmap.cast.uark.edu/explorer/applications/627d1ef8bf25367169a264e9">Commodities Comparison</a></li>
+<li><a href="https://transmap.cast.uark.edu/explorer/applications/627d1a78bf25367169a264e8">Dredging Exploration and Optimization</a></li>
+</ol>
+<h3 id="python-api-and-package">Python API and Package<a class="headerlink" href="#python-api-and-package" title="Permanent link">&para;</a></h3>
+<p>TransMAP Hub also comes with a companion Python package that supports seamless imports of datasets hosted within the repository. The pacakge has methods to extract data using spatial and temporal filters, exports the data into GeoPandas Data Frames, and has built-in mapping functions to produce both static and interactive maps. Static maps use the <code>matplotlib</code> package while the interacitve maps use the <a href="https://docs.kepler.gl/">KeplerGL</a>, a Python-based package that creates lightweight GIS environments in both Jupyter notebooks and generic html documents. The <code>transmap</code> package (currently at version 1.0.1) will eventually be published in both <a href="https://pypi.org">PyPI</a> and <a href="https://conda-forge.org">conda forge</a>. The package is also availabe from the the TransMAP Hub <a href="https://transmap.cast.uark.edu">main page</a>.</p>
+<p>Details on installation and use examples can be found in the <a href="https://transmap.cast.uark.edu/explorer/notebooks/6320900d86efb457cec4793e">Using the TransMAP API How To</a> notebook.</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      2021-06-30
+      2022-09-26
     
   </small>
 </div>

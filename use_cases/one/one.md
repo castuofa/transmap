@@ -50,7 +50,8 @@ TransMAP Hub will provide free, public access to the cleansed data necessary to 
 **Users of all skill levels will be able to use this capability**. Users with varying levels of data skill and experience will interact with TransMAP Hub ranging from lay users interacting with the geographical user interface to heavy users downloading data files for individual use.
 
 **Users will be able to obtain publicly available and free access** to relevant data as available for their region and timeframe of interest as follows:
-
+- Navigation region of interest
+- Major types of cargo vessels with descriptive information such as vessel traffic volume and speed
 
 ### Challenges
 
@@ -65,15 +66,10 @@ There are four known challenges associated with this use case:
 
 Annually or as needed after a triggering event
 
-
 ### Contacts
 
 **Heather Nachtmann**
 
 Professor, Department of Industrial Engineering, University of Arkansas, Fayetteville
 
-
 **Center for Advanced Spatial Technologies (CAST)**
-
-
-
