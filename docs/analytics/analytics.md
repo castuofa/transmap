@@ -2,43 +2,19 @@
 
 While the TransMAP Hub Explorer interface facilitates exploratory access to the TransMAP Hub Data Repository, the overall functionality for more intermediate and advanced consumers is somewhat limiting. Therefore, two approaches are currently under active development to accommodate researchers looking to gain deeper insights into the data repository without exporting and/or downloading entire datasets.
 
-### Interactive Dashboards
+### Interactive Applications (or Dashboards)
 
-Driven by the research objectives outlined in the various Use Cases, these interactive dashboards will be built using Streamlit.io to facilitate a guided, research focused exploration of specific datasets.
-
+Driven by the research objectives outlined in the use cases, two interactive dashboards avaialable. These are built using [Streamlit](https://docs.streamlit.io/) and facilitate guided, research focused explorations of specific datasets. The example below examines highlights activity captured in the USACE Lock Performance Monitoring System [(LPMS)](https://ndc.ops.usace.army.mil/ords/f?p=108:1::::::).
 
 ![AnalyticsStreamlitExample](../img/analytics-streamlit.png){ loading=lazy }
 
+Two other applications (dashboards) are available as Resources in the Hub.
 
-### Python API
+1. [Commodities Comparison](https://transmap.cast.uark.edu/explorer/applications/627d1ef8bf25367169a264e9)
+2. [Dredging Exploration and Optimization](https://transmap.cast.uark.edu/explorer/applications/627d1a78bf25367169a264e8)
 
-With a focus on the TransMAP Hub Data Repository, a Python package is currently under development that will allow seamless imports of datasets hosted within the repository and easily queried directly into Pandas Data Frames.
+### Python API and Package
 
-!!! info
-    This package is published to PyPI at: [transmap](https://pypi.org/project/transmap/)
+TransMAP Hub also comes with a companion Python package that supports seamless imports of datasets hosted within the repository. The pacakge has methods to extract data using spatial and temporal filters, exports the data into GeoPandas Data Frames, and has built-in mapping functions to produce both static and interactive maps. Static maps use the `matplotlib` package while the interacitve maps use the [KeplerGL](https://docs.kepler.gl/), a Python-based package that creates lightweight GIS environments in both Jupyter notebooks and generic html documents. The ```transmap``` package (currently at version 1.0.1) will eventually be published in both [PyPI](https://pypi.org) and [conda forge](https://conda-forge.org). The package is also availabe from the the TransMAP Hub [main page](https://transmap.cast.uark.edu).
 
-When published, the package can be installed by running:
-
-```bash
-$ pip install transmap
-```
-
-And then importing using:
-
-```python
-
-from transmap import TransMAP
-
-Map = TransMap(...)
-
-```
-
-### Jupyter Notebooks
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/castuofa/transmap-examples/HEAD)
-
-The TransMAP Python package will be used to develop a series of interactive Jupyter Notebooks, served initially through BinderHub, that will showcase Use Cases or a variety of methodologies within which to analyze the data repository without the need for additional setup or installations.
-
-Examples of these will be linked within the "Notebooks" section of these documents and hosted on [Github - TransMAP Notebook Examples](https://github.com/castuofa/transmap-examples).
-
-
+Details on installation and use examples can be found in the [Using the TransMAP API How To](https://transmap.cast.uark.edu/explorer/notebooks/6320900d86efb457cec4793e) notebook.
